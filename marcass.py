@@ -10,19 +10,19 @@ def takeoffSTB():
     match c:
 
         case "1":
-            webbrowser.open(takeofftmSTB.get("p"))
+            webbrowser.open(streetbusiness['takeofftmSTB'].get("p"))
               
         case "2":
-            webbrowser.open(takeofftmSTB.get("m"))
+            webbrowser.open(streetbusiness['takeofftmSTB'].get("m"))
                  
         case "3":
-            webbrowser.open(takeofftmSTB.get("g"))
+            webbrowser.open(streetbusiness['takeofftmSTB'].get("g"))
         
         case "4":
-            webbrowser.open(takeofftmSTB.get("gg"))
+            webbrowser.open(streetbusiness['takeofftmSTB'].get("gg"))
         
         case "5":
-            webbrowser.open(takeofftmSTB.get("xg"))
+            webbrowser.open(streetbusiness['takeofftmSTB'].get("xg"))
 
 
 def madSTB():
@@ -34,25 +34,25 @@ def madSTB():
     match c:
 
         case "1":
-            webbrowser.open(madtmSTB.get("pp"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("pp"))
               
         case "2":
-            webbrowser.open(madtmSTB.get("p"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("p"))
                  
         case "3":
-            webbrowser.open(madtmSTB.get("m"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("m"))
         
         case "4":
-            webbrowser.open(madtmSTB.get("g"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("g"))
         
         case "5":
-            webbrowser.open(madtmSTB.get("gg"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("gg"))
 
         case "6":
-            webbrowser.open(madtmSTB.get("exg"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("exg"))
 
         case "7":
-            webbrowser.open(madtmSTB.get("exgg"))
+            webbrowser.open(streetbusiness['madtmSTB'].get("exgg"))
 
 
 def sufSTB():
@@ -64,25 +64,25 @@ def sufSTB():
     match c:
 
         case "1":
-            webbrowser.open(suftmSTB.get("ppSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("ppSTB"))
               
         case "2":
-            webbrowser.open(suftmSTB.get("pSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("pSTB"))
                  
         case "3":
-            webbrowser.open(suftmSTB.get("mSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("mSTB"))
         
         case "4":
-            webbrowser.open(suftmSTB.get("gSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("gSTB"))
         
         case "5":
-            webbrowser.open(suftmSTB.get("ggSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("ggSTB"))
 
         case "6":
-            webbrowser.open(suftmSTB.get("exgSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("exgSTB"))
 
         case "7":
-            webbrowser.open(suftmSTB.get("exggSTB"))
+            webbrowser.open(streetbusiness['suftmSTB'].get("exggSTB"))
 
 
 def clsSTB():
@@ -98,22 +98,18 @@ def clsSTB():
             
             
         case "2":
-            webbrowser.open(classtmSTB.get("m"))
+            webbrowser.open(streetbusiness['classtmSTB'].get("m"))
                  
 
         case "3":
-            webbrowser.open(classtmSTB.get("g"))
+            webbrowser.open(streetbusiness['classtmSTB'].get("g"))
         
 
         case "4":
-            webbrowser.open(classtmSTB.get("gg"))
+            webbrowser.open(streetbusiness['classtmSTB'].get("gg"))
         
 
         case "5":
-            webbrowser.open(classtmSTB.get("exg"))
+            webbrowser.open(streetbusiness['classtmSTB'].get("exg"))
   
-
-
-
-
 
