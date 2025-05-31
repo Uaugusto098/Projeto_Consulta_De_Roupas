@@ -3,15 +3,17 @@ import webbrowser
 
 
 
-classtm={
-    "p":"https://www.wallsgeneralstore.com.br/class?loja=690339&categoria=119&variants%5B%5D=Tamanho%7C%7CP",
-    "m":"https://www.wallsgeneralstore.com.br/class?loja=690339&categoria=119&variants%5B%5D=Tamanho%7C%7CM",
-    "g":"https://www.wallsgeneralstore.com.br/class?loja=690339&categoria=119&variants%5B%5D=Tamanho%7C%7CG",
-    "gg":"https://www.wallsgeneralstore.com.br/class?loja=690339&categoria=119&variants%5B%5D=Tamanho%7C%7CGG",
-    "egg":"https://www.wallsgeneralstore.com.br/class?loja=690339&categoria=119&variants%5B%5D=Tamanho%7C%7CEGG"
+classtmSTB={
+    "p":"https://streetbusiness.com.br/marca/class/?Tamanho=P",
+    "m":"https://streetbusiness.com.br/marca/class/?Tamanho=M",
+    "g":"https://streetbusiness.com.br/marca/class/?Tamanho=G",
+    "gg":"https://streetbusiness.com.br/marca/class/?Tamanho=Gg",
+    "exg":"https://streetbusiness.com.br/marca/class/?Tamanho=Exg"
+
+
 }
 
-suftm={
+suftmSTB={
     "ppSTB":"https://streetbusiness.com.br/marca/sufgang/?Tamanho=Pp",
     "pSTB":"https://streetbusiness.com.br/marca/sufgang/?Tamanho=P",
     "mSTB":"https://streetbusiness.com.br/marca/sufgang/?Tamanho=M",
@@ -25,7 +27,7 @@ suftm={
 }
 
 
-madtm={
+madtmSTB={
      "pp":"https://streetbusiness.com.br/marca/mad-enlatados/?Tamanho=Pp",
     "p":"https://streetbusiness.com.br/marca/mad-enlatados/?Tamanho=P",
     "m":"https://streetbusiness.com.br/marca/mad-enlatados/?Tamanho=M",
@@ -37,12 +39,12 @@ madtm={
 
 }
 
-takeofftm={
-   "p":" https://takeoffcollection.com.br/categorias/?Tamanho=P",
-   "m":" https://takeoffcollection.com.br/categorias/?Tamanho=M",
-   "g":" https://takeoffcollection.com.br/categorias/?Tamanho=G",
-   "gg":" https://takeoffcollection.com.br/categorias/?Tamanho=Gg",
-   "xg":" https://takeoffcollection.com.br/categorias/?Tamanho=Xg"
+takeofftmSTB={
+   "p":" https://streetbusiness.com.br/marca/take-off/?Tamanho=P",
+   "m":" https://streetbusiness.com.br/marca/take-off/?Tamanho=M",
+   "g":" https://streetbusiness.com.br/marca/take-off/?Tamanho=G",
+   "gg":" https://streetbusiness.com.br/marca/take-off/?Tamanho=Gg",
+   "xg":" https://streetbusiness.com.br/marca/take-off/?Tamanho=Exg"
 
 
 

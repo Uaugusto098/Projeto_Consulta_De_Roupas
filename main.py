@@ -22,6 +22,15 @@ while inicio==1:
             break
 
         case'1':
-            suf()
+            sufSTB()
+        
+        case'2':
+            takeoffSTB()
+
+        case'3':
+            clsSTB()
+
+        case'4':
+            madSTB()         
 
         

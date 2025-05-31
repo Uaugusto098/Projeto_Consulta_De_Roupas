@@ -1,6 +1,7 @@
 import webbrowser
 from sites_taamanhos import *
-def takeoff():
+
+def takeoffSTB():
 
     print("\n---TAKEOFF----")
     print("\n1-Tamanho:P\n2-Tamanho:M\n3-Tamanho:G\n4-Tamanho:GG\n5-Tamanho:XG")
@@ -9,22 +10,22 @@ def takeoff():
     match c:
 
         case "1":
-            webbrowser.open(takeofftm.get("p"))
+            webbrowser.open(takeofftmSTB.get("p"))
               
         case "2":
-            webbrowser.open(takeofftm.get("m"))
+            webbrowser.open(takeofftmSTB.get("m"))
                  
         case "3":
-            webbrowser.open(takeofftm.get("g"))
+            webbrowser.open(takeofftmSTB.get("g"))
         
         case "4":
-            webbrowser.open(takeofftm.get("gg"))
+            webbrowser.open(takeofftmSTB.get("gg"))
         
         case "5":
-            webbrowser.open(takeofftm.get("xg"))
+            webbrowser.open(takeofftmSTB.get("xg"))
 
 
-def mad():
+def madSTB():
 
     print("\n---MAD----")
     print("1-Tamanho:PP\n2-Tamanho:P\n3-Tamanho:M\n4-Tamanho:G\n5-Tamanho:GG\n6-Tamanho:EXG\n7-Tamanho:EXGG")
@@ -33,28 +34,28 @@ def mad():
     match c:
 
         case "1":
-            webbrowser.open(madtm.get("pp"))
+            webbrowser.open(madtmSTB.get("pp"))
               
         case "2":
-            webbrowser.open(madtm.get("p"))
+            webbrowser.open(madtmSTB.get("p"))
                  
         case "3":
-            webbrowser.open(madtm.get("m"))
+            webbrowser.open(madtmSTB.get("m"))
         
         case "4":
-            webbrowser.open(madtm.get("g"))
+            webbrowser.open(madtmSTB.get("g"))
         
         case "5":
-            webbrowser.open(madtm.get("gg"))
+            webbrowser.open(madtmSTB.get("gg"))
 
         case "6":
-            webbrowser.open(madtm.get("exg"))
+            webbrowser.open(madtmSTB.get("exg"))
 
         case "7":
-            webbrowser.open(madtm.get("exgg"))
+            webbrowser.open(madtmSTB.get("exgg"))
 
 
-def suf():
+def sufSTB():
 
     print("\n---SUFGANG----")
     print("1-Tamanho:PP\n2-Tamanho:P\n3-Tamanho:M\n4-Tamanho:G\n5-Tamanho:GG\n6-Tamanho:EXG\n7-Tamanho:EXGG")
@@ -63,28 +64,28 @@ def suf():
     match c:
 
         case "1":
-            webbrowser.open(suftm.get("ppSTB"))
+            webbrowser.open(suftmSTB.get("ppSTB"))
               
         case "2":
-            webbrowser.open(suftm.get("pSTB"))
+            webbrowser.open(suftmSTB.get("pSTB"))
                  
         case "3":
-            webbrowser.open(suftm.get("mSTB"))
+            webbrowser.open(suftmSTB.get("mSTB"))
         
         case "4":
-            webbrowser.open(suftm.get("gSTB"))
+            webbrowser.open(suftmSTB.get("gSTB"))
         
         case "5":
-            webbrowser.open(suftm.get("ggSTB"))
+            webbrowser.open(suftmSTB.get("ggSTB"))
 
         case "6":
-            webbrowser.open(suftm.get("exgSTB"))
+            webbrowser.open(suftmSTB.get("exgSTB"))
 
         case "7":
-            webbrowser.open(suftm.get("exggSTB"))
+            webbrowser.open(suftmSTB.get("exggSTB"))
 
 
-def cls():
+def clsSTB():
 
     print("\n---CLASS----")
     print("1-Tamanho:P\n2-Tamanho:M\n3-Tamanho:G\n4-Tamanho:GG\n5-Tamanho:EGG")
@@ -93,23 +94,23 @@ def cls():
     match c:
 
         case "1":
-            webbrowser.open(classtm.get("p"))
+            webbrowser.open(classtmSTB.get("p"))
             
             
         case "2":
-            webbrowser.open(classtm.get("m"))
+            webbrowser.open(classtmSTB.get("m"))
                  
 
         case "3":
-            webbrowser.open(classtm.get("g"))
+            webbrowser.open(classtmSTB.get("g"))
         
 
         case "4":
-            webbrowser.open(classtm.get("gg"))
+            webbrowser.open(classtmSTB.get("gg"))
         
 
         case "5":
-            webbrowser.open(classtm.get("egg"))
+            webbrowser.open(classtmSTB.get("exg"))
   
 
 
