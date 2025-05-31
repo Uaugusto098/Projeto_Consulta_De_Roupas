@@ -2,14 +2,15 @@ import webbrowser
 
 
 
+streetbusiness = {
 
-classtmSTB={
-    "p":"https://streetbusiness.com.br/marca/class/?Tamanho=P",
-    "m":"https://streetbusiness.com.br/marca/class/?Tamanho=M",
-    "g":"https://streetbusiness.com.br/marca/class/?Tamanho=G",
-    "gg":"https://streetbusiness.com.br/marca/class/?Tamanho=Gg",
-    "exg":"https://streetbusiness.com.br/marca/class/?Tamanho=Exg"
-
+    'classtmSTB':{
+        "p":"https://streetbusiness.com.br/marca/class/?Tamanho=P",
+        "m":"https://streetbusiness.com.br/marca/class/?Tamanho=M",
+        "g":"https://streetbusiness.com.br/marca/class/?Tamanho=G",
+        "gg":"https://streetbusiness.com.br/marca/class/?Tamanho=Gg",
+        "exg":"https://streetbusiness.com.br/marca/class/?Tamanho=Exg"
+    }
 
 }
 

@@ -94,7 +94,7 @@ def clsSTB():
     match c:
 
         case "1":
-            webbrowser.open(classtmSTB.get("p"))
+            webbrowser.open(streetbusiness['classtmSTB'].get("p"))
             
             
         case "2":
