@@ -18,7 +18,7 @@ while inicio==1:
             break
 
         case'1':
-            streetbusines(sufSTB)
+            sufSTB()
         
         case'2':
             takeoffSTB()
