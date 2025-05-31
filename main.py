@@ -3,10 +3,6 @@ print("\n          Consulta de roupas")
 print("\nMarcas disponiveis:Sufgang,Class,Mad,Takeoff\n")
 inicio=1
 
-marca=[]
-tipo=[]
-tamanho=[]
-
 while inicio==1:
     print('''       -----MARCAS-----
         1-SUFGANG
@@ -22,7 +18,7 @@ while inicio==1:
             break
 
         case'1':
-            sufSTB()
+            streetbusines(sufSTB)
         
         case'2':
             takeoffSTB()
@@ -31,6 +27,20 @@ while inicio==1:
             clsSTB()
 
         case'4':
-            madSTB()         
+            madSTB()
+
+
+
+
+
+
+
+
+
+
+        # case'5':
+        #     variavel=input("digite o termo a ser pesquisado")
+        #     pesquisa = variavel.replace(' ','+')
+        #     webbrowser.open('https://www.wallsgeneralstore.com.br/loja/busca.php?loja=690339&palavra_busca='+pesquisa)         
 
         
