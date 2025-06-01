@@ -350,7 +350,7 @@ def allSTB():
 
 def allWGS():
     print("\n---ALL WALLS GENERAL STORE----")
-    print("1-PIET\n2-BARRACREW\n3-MAD ENLATADOS\n4-CLASS")
+    print("1-PIET\n2-BARRACREW\n3-MAD ENLATADOS\n4-CLASS\n5-Pesquisar")
     c=input("Opção: ")
 
     match c:
@@ -374,7 +374,7 @@ def allWGS():
 
 def allDPC():
     print("\n---ALL DROP COMPANY----")
-    print("1-PALLA WORLD\n2-EGHO\n3-MAD ENLATADOS\n4-BARRACREW\n5-CLASS")
+    print("1-PALLA WORLD\n2-EGHO\n3-MAD ENLATADOS\n4-BARRACREW\n5-CLASSn\n6-Pesquisar")
     c=input("Opção: ")
 
     match c:
@@ -414,6 +414,3 @@ def all():
                  
         case "3":
             allDPC()
-            
-
-
