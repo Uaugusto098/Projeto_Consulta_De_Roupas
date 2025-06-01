@@ -326,7 +326,7 @@ def pallaDPC():
 
 def allSTB():
     print("\n---ALL STREET BUSINESS----")
-    print("1-TAKEOFF\n2-MAD ENLATADOS\n3-SUFGANG\n4-CLASS")
+    print("1-TAKEOFF\n2-MAD ENLATADOS\n3-SUFGANG\n4-CLASS\n5-Pesquisar")
     c=input("Opção: ")
 
     match c:
@@ -342,6 +342,11 @@ def allSTB():
         
         case "4":
             clsSTB()
+        case '5':
+            pesquisa=input("Digite o que deseja pesquisar: ")
+            pesquisacerta = pesquisa.replace(" ", "+")
+            webbrowser.open('https://streetbusiness.com.br/search/?q='+pesquisacerta)
+            
 
 def allWGS():
     print("\n---ALL WALLS GENERAL STORE----")
@@ -361,6 +366,11 @@ def allWGS():
         
         case "4":
             classWGS()
+        case '5':
+            pesquisa=input("Digite o que deseja pesquisar: ")
+            pesquisacerta = pesquisa.replace(" ", "+")
+            webbrowser.open('https://www.wallsgeneralstore.com.br/loja/busca.php?loja=690339&palavra_busca='+pesquisacerta)
+            
 
 def allDPC():
     print("\n---ALL DROP COMPANY----")
@@ -383,9 +393,14 @@ def allDPC():
         
         case "5":
             classDPC()
+        case '6':
+            pesquisa=input("Digite o que deseja pesquisar: ")
+            pesquisacerta = pesquisa.replace(" ", "+")
+            webbrowser.open('https://www.dropcompanybr.com/search/?q='+pesquisacerta)
+            
 
 def all():
-    print("\n---ALL MARCAS----")
+    print("\n---ALL SITES----")
     print("1-STREET BUSINESS\n2-WALLS GENERAL STORE\n3-DROP COMPANY")
     c=input("Opção: ")
 
@@ -399,5 +414,6 @@ def all():
                  
         case "3":
             allDPC()
+            
 
 
